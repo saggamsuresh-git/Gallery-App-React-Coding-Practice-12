@@ -1,0 +1,28 @@
+/* Write your code here. */
+.bg-container {
+  height: 100vh;
+  margin: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0px;
+}
+
+.image {
+  width: 700px;
+}
+@media screen and (max-width: 768px) {
+  .image {
+    width: 320px;
+  }
+  ul {
+    flex-wrap: wrap;
+    width: 200px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
